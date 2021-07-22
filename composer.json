@@ -1,0 +1,31 @@
+{
+  "name": "coding-saxony/array-helper",
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/coding-saxony/array-helper/issues",
+    "source": "https://github.com/coding-saxony/array-helper"
+  },
+  "minimum-stability": "dev",
+  "homepage": "https://github.com/coding-saxony/array-helper",
+  "authors": [
+    {
+      "name": "Jonas Hanisch",
+      "email": "jonas.hanisch@ffenergie.de",
+      "homepage": "https://github.com/informatJonas",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0|^5.0|^6.0",
+    "facade/ignition": "^2.4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodingSaxony\\ArrayHelper\\": "src/"
+    }
+  }
+}
